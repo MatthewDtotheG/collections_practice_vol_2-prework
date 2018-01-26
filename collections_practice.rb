@@ -35,7 +35,6 @@ def remove_non_strings(array)
   string_array
 end
 
-
 def count_elements(array)
   array.each do |original_hash|
     original_hash[:count] = 0
